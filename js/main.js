@@ -1,17 +1,45 @@
 $(document).ready(function() {
     "use strict";
 
+    $(".back_modal").click(function() {
+        $(this).removeClass("active");
+        $(".dropdown").removeClass("active");
+        $("body").removeClass("scroll");
+    });
+
+    $(".dropdown_top_close").click(function() {
+        $(".back_modal").removeClass("active");
+        $(".dropdown").removeClass("active");
+        $("body").removeClass("scroll");
+    });
+
+    $(".header_mob_burger").click(function() {
+        $(".back_modal").addClass("active");
+        $(".dropdown").addClass("active");
+        $("body").addClass("scroll");
+    });
+
     $('select').niceSelect();
 
-    $('.main_slider').slick({
-		slidesToShow: 1,
+    $('.review_wrap_slider').slick({
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		dots: false,
 		speed: 500,
-		autoplay: true,
-        fade: true,
-		prevArrow: $('.main_slider_item_wrap_title_arrows_left'),
-      	nextArrow: $('.main_slider_item_wrap_title_arrows_right')
+        centerMode: true,
+        centerPadding: 0,
+		autoplay: false,
+        fade: false,
+		prevArrow: $('.review_wrap_arrows_prev'),
+      	nextArrow: $('.review_wrap_arrows_next'),
+          responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
 	});
 
     $('.residential_complexes_slider').slick({
