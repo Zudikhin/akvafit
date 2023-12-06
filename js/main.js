@@ -143,4 +143,28 @@ $(document).ready(function() {
         $(this).parent().find(".remove_input").css("display", "none");
     });
 
+    $('.product_block_left_nav').slick({
+        slidesToShow: 3,
+        mobileFirst: true,
+        slidesToScroll: 1,
+        asNavFor: '.product_block_left_for',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true,
+        adaptiveHeight: true,
+        vertical: true
+    });
+
+    $('.product_block_left_for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        arrows: false,
+        fade: true,
+        asNavFor: '.product_block_left_nav'
+    });
+
+
+
 });
