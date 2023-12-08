@@ -16,22 +16,28 @@
     <header class="header">
       <div class="container">
         <div class="header_mob">
-          <a class="header_mob_tel" href="tel:+73462779555">
-            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-              <circle cx="24.5" cy="24.5" r="24.5" fill="#1B1B1B"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M29.6877 34.9674C28.2477 34.9144 24.1667 34.3504 19.8927 30.0774C15.6197 25.8034 15.0567 21.7234 15.0027 20.2824C14.9227 18.0864 16.6047 15.9534 18.5477 15.1204C18.7817 15.0194 19.0379 14.9809 19.2913 15.0088C19.5446 15.0367 19.7863 15.13 19.9927 15.2794C21.5927 16.4454 22.6967 18.2094 23.6447 19.5964C23.8533 19.9012 23.9425 20.272 23.8953 20.6382C23.8481 21.0045 23.6678 21.3406 23.3887 21.5824L21.4377 23.0314C21.3435 23.0995 21.2771 23.1995 21.251 23.3128C21.2249 23.4261 21.2408 23.545 21.2957 23.6474C21.7377 24.4504 22.5237 25.6464 23.4237 26.5464C24.3247 27.4464 25.5767 28.2844 26.4357 28.7764C26.5434 28.8369 26.6702 28.8538 26.79 28.8237C26.9098 28.7935 27.0135 28.7187 27.0797 28.6144L28.3497 26.6814C28.5832 26.3713 28.9277 26.1635 29.3109 26.1016C29.6942 26.0397 30.0865 26.1285 30.4057 26.3494C31.8127 27.3234 33.4547 28.4084 34.6567 29.9474C34.8184 30.1553 34.9212 30.4029 34.9544 30.6641C34.9877 30.9253 34.9501 31.1907 34.8457 31.4324C34.0087 33.3854 31.8907 35.0484 29.6877 34.9674Z" fill="white"/>
-            </svg>
+          <a class="header_mob_logo" href="#">
+            <img src="img/header/logo.svg" alt="">
           </a>
-          <a class="header_mob_logo" href="#">Аквакит</a>
-          <div class="header_mob_burger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="26" viewBox="0 0 29 26" fill="none">
-              <path d="M0 0H29V3.25H0V0ZM9.66667 11.375H29V14.625H9.66667V11.375ZM0 22.75H29V26H0V22.75Z" fill="#1D1D1D"/>
-            </svg>
-          </div>
+          <div class="header_mob_right">
+            <a class="header_mob_right_tel" href="tel:+73462779555">
+              <img src="img/header/tel.svg" alt="">
+            </a>
+            <a class="header_mob_right_cart" href="#">
+              <img src="img/header/cart.svg" alt="">
+            </a>
+            <div class="header_mob_burger">
+              <svg xmlns="http://www.w3.org/2000/svg" width="29" height="26" viewBox="0 0 29 26" fill="none">
+                <path d="M0 0H29V3.25H0V0ZM9.66667 11.375H29V14.625H9.66667V11.375ZM0 22.75H29V26H0V22.75Z" fill="#1D1D1D"/>
+              </svg>
+            </div>
+          </div>          
         </div>
         <div class="header_desk">
           <div class="header_desk_top">
-            <a href="/" class="header_desk_top_logo">Аквакит</a>
+            <a href="/" class="header_desk_top_logo">
+              <img src="img/header/logo.svg" alt="">
+            </a>
             <div class="header_desk_top_city">
               <div class="header_desk_top_city_up">
                 <span>Сургут</span>
@@ -56,6 +62,9 @@
               <a href="tel:+73462779555">+7 (3462) 779-555</a>
               <p>пн-вс с 8.00 до 19.00</p>
             </div>
+            <a class="header_desk_top_cart" href="#">
+              <img src="img/header/cart.svg" alt="">
+            </a>
           </div>
           <div class="header_desk_bottom">
             <ul>
@@ -142,10 +151,10 @@
               <p>208 500 руб.</p>
             </div>
             <div class="product_block_right_btns">
-              <div class="product_block_right_btns_item">
+              <div class="product_block_right_btns_item no_fill">
                 <span>Купить в 1 клик</span>
               </div>
-              <a class="product_block_right_btns_item" href="#">
+              <a class="product_block_right_btns_item fill" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
                   <path d="M19.0909 5.5H15.2273V5.06C15.2273 2.266 12.8864 0 10 0C7.11364 0 4.77273 2.266 4.77273 5.06V5.5H0.909091C0.40625 5.5 0 5.89325 0 6.38V21.12C0 21.6068 0.40625 22 0.909091 22H19.0909C19.5938 22 20 21.6068 20 21.12V6.38C20 5.89325 19.5938 5.5 19.0909 5.5ZM6.81818 5.06C6.81818 3.35775 8.24148 1.98 10 1.98C11.7585 1.98 13.1818 3.35775 13.1818 5.06V5.5H6.81818V5.06ZM17.9545 20.02H2.04545V7.48H4.77273V9.9C4.77273 10.021 4.875 10.12 5 10.12H6.59091C6.71591 10.12 6.81818 10.021 6.81818 9.9V7.48H13.1818V9.9C13.1818 10.021 13.2841 10.12 13.4091 10.12H15C15.125 10.12 15.2273 10.021 15.2273 9.9V7.48H17.9545V20.02Z" fill="white"/>
                 </svg>
@@ -218,6 +227,388 @@
             </div>
           </div>
         </div>
+        <div class="product_example">
+          <div class="product_example_title">
+            <h3>Примеры монтажей:</h3>
+            <div class="product_example_title_arrows">
+              <div class="product_example_title_arrows_prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+                  <path d="M0.725435 8.70711C0.334911 8.31658 0.334911 7.68342 0.725435 7.2929L7.0894 0.928934C7.47992 0.53841 8.11309 0.538409 8.50361 0.928934C8.89413 1.31946 8.89413 1.95262 8.50361 2.34315L2.84676 8L8.50361 13.6569C8.89414 14.0474 8.89414 14.6805 8.50361 15.0711C8.11309 15.4616 7.47992 15.4616 7.0894 15.0711L0.725435 8.70711ZM27.4055 9L1.43254 9L1.43254 7L27.4055 7L27.4055 9Z" fill="#7A7A7A"/>
+                </svg>
+              </div>
+              <div class="product_example_title_arrows_next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+                  <path d="M27.2746 8.70711C27.6651 8.31658 27.6651 7.68342 27.2746 7.2929L20.9106 0.928934C20.5201 0.53841 19.8869 0.538409 19.4964 0.928934C19.1059 1.31946 19.1059 1.95262 19.4964 2.34315L25.1532 8L19.4964 13.6569C19.1059 14.0474 19.1059 14.6805 19.4964 15.0711C19.8869 15.4616 20.5201 15.4616 20.9106 15.0711L27.2746 8.70711ZM0.594482 9L26.5675 9L26.5675 7L0.594483 7L0.594482 9Z" fill="#7A7A7A"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="product_example_slider">
+            <div class="product_example_slider_item">
+              <img src="img/product/1.png" alt="">
+            </div>
+            <div class="product_example_slider_item">
+              <img src="img/product/1.png" alt="">
+            </div>
+            <div class="product_example_slider_item">
+              <img src="img/product/1.png" alt="">
+            </div>
+            <div class="product_example_slider_item">
+              <img src="img/product/1.png" alt="">
+            </div>
+            <div class="product_example_slider_item">
+              <img src="img/product/1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="product_nav">
+          <div data-target="desc" class="product_nav_item active">
+            <span>Описание</span>
+          </div>
+          <div data-target="charas" class="product_nav_item">
+            <span>Характеристики</span>
+          </div>
+          <div data-target="sostav" class="product_nav_item">
+            <span>Состав</span>
+          </div>
+          <div data-target="cost" class="product_nav_item">
+            <span>В стоимость входит</span>
+          </div>
+          <div data-target="review" class="product_nav_item">
+            <span>Отзывы</span>
+          </div>
+          <div data-target="oplata" class="product_nav_item">
+            <span>Оплата и доставка</span>
+          </div>
+          <div data-target="rasrochka" class="product_nav_item">
+            <span>Рассрочка</span>
+          </div>
+        </div>
+        <div class="product_description">
+          <div id="desc" class="product_description_item active">
+            <p>Компания занимается индивидуальным подбором оборудования для очистки воды в частных и коттеджных домах с 1993 года. Мы используем
+              надежные системы очистки от американских и европейских производителей, являющихся мировыми лидерами на рынке оборудования для
+              водоподготовки. Прежде чем подобрать и установить систему, мы проводим лабораторный анализ качества воды.
+              <br>
+              <br>
+              Станция очистки и смягчения воды Экодар Pro – это универсальная система для загородного дома, которая является продуктом разработки
+              специалистов Экодар и ученых МГУ.
+              <br>
+              <br>
+              На территории России только в данном комплекте оборудования для водоочистки в частном доме используется совокупность таких
+              технологических решений, как русифицированная управляющая автоматика последнего поколения от компании Canture, мобильная
+              монтажная платформа, термозащитные кожухи баллонов, панель датчиков и др.
+              <br>
+              <br>
+              Ваши выгоды:
+              Готовое комплексное решение всех основных задач очистки воды.
+              Безопасно — в отличие от многих других систем фильтрации воды, водоочистка для коттеджа Экодар Pro не использует опасные химические
+              реагенты, которые могут нанести вред здоровью, бактериальному септику или ландшафту.
+              Передвижная монтажная платформа — система очистки воды для загородного дома Экодар Pro не занимает много места, её удобно
+              монтировать и обслуживать Защита от образования конденсата
+              Выгодно — Экодар Pro является комплексной системой водоочистки коттеджа. Приобретая её, вы избавляетесь от необходимости
+              докупать дополнительные фильтры для коттеджей.
+              Надежность: используются только американские и европейские комплектующие. Срок службы станции — до 10 лет, гарантия на систему
+              и монтажные работы - 4 года, гарантия на чистую воду.</p>
+          </div>
+          <div id="charas" class="product_description_item">
+            <p>Характеристики</p>
+          </div>
+          <div id="sostav" class="product_description_item">
+            <p>Состав</p>
+          </div>
+          <div id="cost" class="product_description_item">
+            <p>В стоимость входит</p>
+          </div>
+          <div id="review" class="product_description_item">
+            <p>Отзывы</p>
+          </div>
+          <div id="oplata" class="product_description_item">
+            <p>Оплата и доставка</p>
+          </div>
+          <div id="rasrochka" class="product_description_item">
+            <p>Рассрочка</p>
+          </div>
+        </div>
+        <div class="product_similar">
+          <div class="product_similar_title">
+            <h3>Похожие товары:</h3>
+            <div class="product_similar_title_arrows">
+              <div class="product_similar_title_arrows_prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+                  <path d="M0.725435 8.70711C0.334911 8.31658 0.334911 7.68342 0.725435 7.2929L7.0894 0.928934C7.47992 0.53841 8.11309 0.538409 8.50361 0.928934C8.89413 1.31946 8.89413 1.95262 8.50361 2.34315L2.84676 8L8.50361 13.6569C8.89414 14.0474 8.89414 14.6805 8.50361 15.0711C8.11309 15.4616 7.47992 15.4616 7.0894 15.0711L0.725435 8.70711ZM27.4055 9L1.43254 9L1.43254 7L27.4055 7L27.4055 9Z" fill="#7A7A7A"/>
+                </svg>
+              </div>
+              <div class="product_similar_title_arrows_next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+                  <path d="M27.2746 8.70711C27.6651 8.31658 27.6651 7.68342 27.2746 7.2929L20.9106 0.928934C20.5201 0.53841 19.8869 0.538409 19.4964 0.928934C19.1059 1.31946 19.1059 1.95262 19.4964 2.34315L25.1532 8L19.4964 13.6569C19.1059 14.0474 19.1059 14.6805 19.4964 15.0711C19.8869 15.4616 20.5201 15.4616 20.9106 15.0711L27.2746 8.70711ZM0.594482 9L26.5675 9L26.5675 7L0.594483 7L0.594482 9Z" fill="#7A7A7A"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="product_similar_slider">
+            <div class="product_similar_slider_item">
+              <div class="product_similar_slider_item_top">
+                <img src="img/main/main.png" alt="">
+                <div class="product_similar_slider_item_text">
+                  <h3>Y-1252</h3>
+                  <p>Система умягчения воды</p>
+                  <ul>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Удаление соленой жидкости воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Современный ионный обмен
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Гарантия качества Воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Еще преимущества товара
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      И последнее самое важное
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product_similar_slider_item_bot">
+                <span class="product_similar_slider_item_bot_price">25 990 руб</span>
+                <div class="product_similar_slider_item_bot_btns">
+                  <a href="#" class="product_similar_slider_item_bot_btns_more">
+                    <span>Узнать больше</span>
+                  </a>
+                  <a href="#" class="product_similar_slider_item_bot_btns_add">
+                    <span>Добавить в Корзину</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="product_similar_slider_item">
+              <div class="product_similar_slider_item_top">
+                <img src="img/main/main.png" alt="">
+                <div class="product_similar_slider_item_text">
+                  <h3>Y-1252</h3>
+                  <p>Система умягчения воды</p>
+                  <ul>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Удаление соленой жидкости воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Современный ионный обмен
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Гарантия качества Воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Еще преимущества товара
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      И последнее самое важное
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product_similar_slider_item_bot">
+                <span class="product_similar_slider_item_bot_price">25 990 руб</span>
+                <div class="product_similar_slider_item_bot_btns">
+                  <a href="#" class="product_similar_slider_item_bot_btns_more">
+                    <span>Узнать больше</span>
+                  </a>
+                  <a href="#" class="product_similar_slider_item_bot_btns_add">
+                    <span>Добавить в Корзину</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="product_similar_slider_item">
+              <div class="product_similar_slider_item_top">
+                <img src="img/main/main.png" alt="">
+                <div class="product_similar_slider_item_text">
+                  <h3>Y-1252</h3>
+                  <p>Система умягчения воды</p>
+                  <ul>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Удаление соленой жидкости воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Современный ионный обмен
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Гарантия качества Воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Еще преимущества товара
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      И последнее самое важное
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product_similar_slider_item_bot">
+                <span class="product_similar_slider_item_bot_price">25 990 руб</span>
+                <div class="product_similar_slider_item_bot_btns">
+                  <a href="#" class="product_similar_slider_item_bot_btns_more">
+                    <span>Узнать больше</span>
+                  </a>
+                  <a href="#" class="product_similar_slider_item_bot_btns_add">
+                    <span>Добавить в Корзину</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="product_similar_slider_item">
+              <div class="product_similar_slider_item_top">
+                <img src="img/main/main.png" alt="">
+                <div class="product_similar_slider_item_text">
+                  <h3>Y-1252</h3>
+                  <p>Система умягчения воды</p>
+                  <ul>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Удаление соленой жидкости воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Современный ионный обмен
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Гарантия качества Воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Еще преимущества товара
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      И последнее самое важное
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product_similar_slider_item_bot">
+                <span class="product_similar_slider_item_bot_price">25 990 руб</span>
+                <div class="product_similar_slider_item_bot_btns">
+                  <a href="#" class="product_similar_slider_item_bot_btns_more">
+                    <span>Узнать больше</span>
+                  </a>
+                  <a href="#" class="product_similar_slider_item_bot_btns_add">
+                    <span>Добавить в Корзину</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="product_similar_slider_item">
+              <div class="product_similar_slider_item_top">
+                <img src="img/main/main.png" alt="">
+                <div class="product_similar_slider_item_text">
+                  <h3>Y-1252</h3>
+                  <p>Система умягчения воды</p>
+                  <ul>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Удаление соленой жидкости воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Современный ионный обмен
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Гарантия качества Воды
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      Еще преимущества товара
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                        <path d="M5.7 12.025L0 6.325L1.425 4.9L5.7 9.175L14.875 0L16.3 1.425L5.7 12.025Z" fill="black"></path>
+                      </svg>
+                      И последнее самое важное
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product_similar_slider_item_bot">
+                <span class="product_similar_slider_item_bot_price">25 990 руб</span>
+                <div class="product_similar_slider_item_bot_btns">
+                  <a href="#" class="product_similar_slider_item_bot_btns_more">
+                    <span>Узнать больше</span>
+                  </a>
+                  <a href="#" class="product_similar_slider_item_bot_btns_add">
+                    <span>Добавить в Корзину</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -225,7 +616,9 @@
       <div class="container">
         <div class="footer_desk">
           <div class="footer_desk_top">
-            <a href="/" class="footer_desk_top_logo">Аквакит</a>
+            <a href="/" class="footer_desk_top_logo">
+              <img src="img/header/logo.svg" alt="">
+            </a>
             <div class="footer_desk_top_city">
               <div class="footer_desk_top_city_up">
                 <span>Сургут</span>
@@ -287,6 +680,60 @@
         </div>
       </div>
     </section>
+
+    <div class="back_modal"></div>
+
+    <div class="dropdown">
+      <div class="dropdown_top">
+        <span>Аквакит</span>
+        <div class="dropdown_top_close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+            <rect x="0.5" y="0.5" width="34" height="34" rx="4.5" stroke="#232532" stroke-opacity="0.15"/>
+            <path d="M12.4 24L11 22.6L16.6 17L11 11.4L12.4 10L18 15.6L23.6 10L25 11.4L19.4 17L25 22.6L23.6 24L18 18.4L12.4 24Z" fill="#232532"/>
+          </svg>
+        </div>
+      </div>
+      <div class="dropdown_mid">
+        <ul>
+          <li class="active">
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">О компании</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Фотогалерея</a>
+          </li>
+          <li>
+            <a href="#">Новости/статьи</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="dropdown_bottom">
+        <div class="dropdown_bottom_city">
+          <div class="dropdown_bottom_city_up">
+            <span>Сургут</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M9.64645 13.3536C9.84171 13.5488 10.1583 13.5488 10.3536 13.3536L13.5355 10.1716C13.7308 9.97631 13.7308 9.65973 13.5355 9.46447C13.3403 9.2692 13.0237 9.2692 12.8284 9.46447L10 12.2929L7.17157 9.46447C6.97631 9.2692 6.65973 9.2692 6.46447 9.46447C6.2692 9.65973 6.2692 9.97631 6.46447 10.1716L9.64645 13.3536ZM9.5 12L9.5 13L10.5 13L10.5 12L9.5 12Z" fill="black"/>
+              <circle cx="10" cy="10" r="9.5" stroke="black"/>
+            </svg>
+          </div>
+          <div class="dropdown_bottom_city_bottom">
+            <p>Выбрать город</p>
+          </div>
+        </div>
+        <div class="dropdown_bottom_info">
+          <a href="tel:+73462779555">+7 (3462) 779-555</a>
+          <p>пн-вс с 8.00 до 19.00</p>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.js"></script>

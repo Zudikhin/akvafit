@@ -42,6 +42,26 @@ $(document).ready(function() {
         ]
 	});
 
+    $('.product_example_slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		speed: 500,
+		autoplay: false,
+        fade: false,
+		prevArrow: $('.product_example_title_arrows_prev'),
+      	nextArrow: $('.product_example_title_arrows_next'),
+          responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    fade: true
+                }
+            }
+        ]
+	});
+
     $('.residential_complexes_slider').slick({
         slidesToScroll: 1,
         dots: true,
@@ -165,6 +185,58 @@ $(document).ready(function() {
         asNavFor: '.product_block_left_nav'
     });
 
+    $(".product_nav_item").click(function() {
+        var attr = $(this).attr("data-target");
+        $(".product_nav_item").removeClass("active");
+        $(this).addClass("active");
+        $(".product_description_item").removeClass("active");
+        $(`#${attr}`).addClass("active");
+    });
 
+    $('.product_similar_slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		speed: 500,
+		autoplay: false,
+        fade: false,
+		prevArrow: $('.product_similar_title_arrows_prev'),
+      	nextArrow: $('.product_similar_title_arrows_next'),
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    fade: true
+                }
+            }
+        ]
+	});
+
+    $('.about_bot_team_sliders').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		speed: 500,
+        centerMode: true,
+        centerPadding: 0,
+		autoplay: false,
+        fade: false,
+		prevArrow: $('.about_bot_team_arrows_prev'),
+      	nextArrow: $('.about_bot_team_arrows_next'),
+          responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+	});
+
+    $(".faq_block_list_item_top").click(function() {
+        $(this).parent().toggleClass("active");
+        $(this).parent().find(".faq_block_list_item_body").slideToggle();
+    })
 
 });
